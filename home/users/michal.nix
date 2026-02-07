@@ -4,7 +4,7 @@
   home.stateVersion = "25.11";
 
   imports = [
-    ../modules/zsh.nix
+
   ];
   
   programs.direnv = {
