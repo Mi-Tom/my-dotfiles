@@ -15,7 +15,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations.pepa = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations.michal = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         modules = [ ./users/michal.nix ];
