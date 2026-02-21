@@ -1,8 +1,6 @@
 # PATHS
-- root
-    - home
-        - "user"
-            - **.zshrc**
-            - .config
-                - **hypr**
-                - **fastfetch**
+- ~
+    - **.zshrc**
+    - .config
+        - **hypr**
+        - **fastfetch**
