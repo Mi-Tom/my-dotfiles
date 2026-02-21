@@ -153,7 +153,7 @@ $ fastfetch
             "key": "{#34}│ {#36}Window Manager",
         },
         {
-            "type": "gpu",
+            "type": "terminal",
             "key": "{#34}│ {#36}Terminal",
         },
         {
