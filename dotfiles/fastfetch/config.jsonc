@@ -85,40 +85,106 @@ $ fastfetch
 
 */
 {
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "source": "arch3",
         "padding": {
-            "top": 3,
+            "top": 2,
+            "left": 1,
         },
     },
     "modules": [
-        "title",
-        "separator",
-
-        "os",
-        "kernel",
-        "host",
-        "disk",
+        {
+            "type": "title",
+            "format": "{#34}╭──── {user-name-colored}@{host-name-colored} {#34}──────────────────────────────────────────",
+        },
+        {
+            "type": "os",
+            "key": "{#34}│ {#36}OS",
+            "format": "{3}",
+        },
+        {
+            "type": "kernel",
+            "key": "{#34}│ {#36}Kernel",
+            "format": "{sysname}",
+        },
+        {
+            "type": "host",
+            "key": "{#34}│ {#36}Host",
+            "format": "{2}",
+        },
+        {
+            "type": "disk",
+            "key": "{#34}│ {#36}Disk (/)",
+            "format": "{1} / {2} ({3})",
+        },
+        {
+            "format": "{#34}├───────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "display",
+            "key": "{#34}│ {#36}Display ({name})",
+            "format": "{width}x{height}, {refresh-rate} Hz  [{type}]",
+        },
+        {
+            "type": "cpu",
+            "key": "{#34}│ {#36}CPU",
+            "format": "{name} ({cores-physical}) @ {freq-max}",
+        },
+        {
+            "type": "gpu",
+            "key": "{#34}│ {#36}GPU {index}",
+        },
+        {
+            "format": "{#34}├───────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "packages",
+            "key": "{#34}│ {#36}Packages",
+        },
+        {
+            "type": "localip",
+            "key": "{#34}│ {#36}Local IP",
+        },
+        {
+            "type": "wm",
+            "key": "{#34}│ {#36}Window Manager",
+        },
+        {
+            "type": "gpu",
+            "key": "{#34}│ {#36}Terminal",
+        },
+        {
+            "type": "shell",
+            "key": "{#34}│ {#36}Shell",
+        },
+        {
+            "format": "{#34}├───────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "uptime",
+            "key": "{#34}│ {#36}Uptime",
+        },
+        {
+            "type": "memory",
+            "key": "{#34}│ {#36}Memory",
+        },
+        {
+            "type": "swap",
+            "key": "{#34}│ {#36}Swap",
+        },
+        {
+            "type": "battery",
+            "key": "{#34}│ {#36}Battery ({2})",
+        },
+        {
+            "format": "{#34}╰───────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
         "break",
-
-        "display",
-        "cpu",
-        "gpu",
-        "break",
-
-        "packages",
-        "localip",
-        "wm",
-        "terminal",
-        "shell",
-        "break",
-
-        "uptime",
-        "memory",
-        "swap",
-        "battery",
-        "separator",
-
         "colors",
     ],
 }
