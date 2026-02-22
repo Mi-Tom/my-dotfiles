@@ -5,6 +5,7 @@
         - **hypr**
         - **nvim**
         - **fastfetch**
+        - **kitty**
 
 # DESCRIPTION
 - .zshrc
@@ -15,3 +16,5 @@
     - neovim dotfiles
 - fastfetch
     - fastfetch dotfiles
+- kitty
+    - kitty dotfiles
