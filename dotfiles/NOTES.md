@@ -2,19 +2,22 @@
 - ~
     - **.zshrc**
     - .config
-        - **hypr**
-        - **nvim**
         - **fastfetch**
+        - **hypr**
         - **kitty**
+        - **nvim**
+        - **zed**
 
 # DESCRIPTION
 - .zshrc
-    - zsh dotfile
-- hypr
-    - hyprland and hyprpaper dotfiles
-- nvim
-    - neovim dotfiles
+    - Zsh dotfile
 - fastfetch
-    - fastfetch dotfiles
+    - Fastfetch dotfiles
+- hypr
+    - Hyprland and Hyprpaper dotfiles
 - kitty
-    - kitty dotfiles
+    - Kitty dotfiles
+- nvim
+    - Neovim dotfiles
+- zed 
+    - Zed dotfiles (settings.json)
