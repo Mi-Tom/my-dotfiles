@@ -1,5 +1,7 @@
 # PATHS
 - ~
+    - **.gitconfig**
+    - **.gitconfig_local**
     - **.zshrc**
     - .config
         - **fastfetch**
@@ -9,15 +11,19 @@
         - **zed**
 
 # DESCRIPTION
-- .zshrc
-    - Zsh dotfile
-- fastfetch
-    - Fastfetch dotfiles
-- hypr
-    - Hyprland and Hyprpaper dotfiles
-- kitty
-    - Kitty dotfiles
-- nvim
-    - Neovim dotfiles
-- zed 
-    - Zed dotfiles (settings.json)
+- Zsh dotfile
+    - .zshrc
+- Git dotfiles
+    - .gitconfig
+    - .gitconfig_local
+        - the repozitory includes example here: *dotfiles/git/.gitconfig_local.example*
+- Fastfetch dotfiles
+    - fastfetch
+- Hyprland and Hyprpaper dotfiles
+    - hypr
+- Kitty dotfiles
+    - kitty
+- Neovim dotfiles
+    - nvim 
+- Zed dotfiles (settings.json)
+    - zed
