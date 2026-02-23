@@ -8,6 +8,7 @@
         - **hypr**
         - **kitty**
         - **nvim**
+        - **wofi**
         - **zed**
 
 # DESCRIPTION
@@ -25,5 +26,7 @@
     - kitty
 - Neovim dotfiles
     - nvim 
+- Wofi dotfiles
+    - wofi
 - Zed dotfiles (settings.json)
     - zed
