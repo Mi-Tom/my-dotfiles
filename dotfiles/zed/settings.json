@@ -26,7 +26,7 @@
     "base_keymap": "VSCode",
     "autosave": {
         "after_delay": {
-            "milliseconds": 5000,
+            "milliseconds": 4000,
         },
     },
     "languages": {
@@ -48,14 +48,14 @@
     "icon_theme": {
         "mode": "dark",
         "light": "Zed (Default)",
-        "dark": "Zed (Default)",
+        "dark": "Catppuccin Latte",
     },
     "vim_mode": false,
-    "ui_font_size": 16,
+    "ui_font_size": 18, //16
     "buffer_font_size": 15,
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "One Dark",
+        "dark": "Simple Darker",
     },
 }
