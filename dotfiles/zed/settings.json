@@ -47,15 +47,15 @@
     "tab_size": 4,
     "icon_theme": {
         "mode": "dark",
-        "light": "Zed (Default)",
-        "dark": "Catppuccin Latte",
+        "light": "Catppuccin Latte",
+        "dark": "Catppuccin Mocha",
     },
     "vim_mode": false,
     "ui_font_size": 18, //16
     "buffer_font_size": 15,
     "theme": {
         "mode": "dark",
-        "light": "One Light",
-        "dark": "Simple Darker",
+        "light": "Catppuccin Latte",
+        "dark": "Catppuccin Mocha",
     },
 }
