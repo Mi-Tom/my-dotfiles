@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "minimap": {
+        "display_in": "all_editors",
+        "show": "always"
+    },
     "edit_predictions": {
         "provider": "zed",
     },
@@ -44,6 +48,7 @@
         },
     },
     "soft_wrap": "editor_width",
+    "format_on_save": "off",
     "tab_size": 4,
     "icon_theme": {
         "mode": "dark",
@@ -51,7 +56,7 @@
         "dark": "Catppuccin Mocha",
     },
     "vim_mode": false,
-    "ui_font_size": 18, //16
+    "ui_font_size": 19, //16
     "buffer_font_size": 15,
     "theme": {
         "mode": "dark",
