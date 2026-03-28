@@ -48,7 +48,6 @@ alias grep="grep --color=auto"
 alias ..="cd .."
 
 alias gti="git"
-alias dots='git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 
 # --- Histori settings ---
 HISTSIZE=10000
