@@ -1,0 +1,55 @@
+window {
+    margin: 0px;
+    border: 2px solid #00afff;
+    background-color: #111111;
+    font-family: "JetBrains Mono", "monospace";
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #00afff;
+    color: #ffffff;
+    background-color: #1e1e1e;
+    border-radius: 0px;
+}
+
+#inner-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    background-color: #111111;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#entry {
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: #00afff;
+    border-radius: 0px;
+}
+
+#text:selected {
+    color: #111111;
+    font-weight: bold;
+    background-color: transparent;
+}
