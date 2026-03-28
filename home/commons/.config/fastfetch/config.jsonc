@@ -1,0 +1,190 @@
+/*
+// Púvodní nastavení
+// $ fastfetch
+//                   -`                     michal@arch
+//                  .o+`                    -----------
+//                 `ooo/                    OS: Arch Linux x86_64
+//                `+oooo:                   Host: Latitude E5570
+//               `+oooooo:                  Kernel: Linux 6.18.9-arch1-2
+//               -+oooooo+:                 Uptime: 6 hours, 4 mins
+//             `/:-:++oooo+:                Packages: 1166 (pacman), 94 (nix-user), 7 (flatpak)
+//            `/++++/+++++++:               Shell: zsh 5.9
+//           `/++++++++++++++:              Display (LG ULTRAWIDE): 2560x1080 in 29", 60 Hz [External]
+//          `/+++ooooooooooooo/`            DE: KDE Plasma 6.6.0
+//         ./ooosssso++osssssso+`           WM: KWin (Wayland)
+//        .oossssso-````/ossssss+`          WM Theme: Breeze
+//       -osssssso.      :ssssssso.         Theme: Breeze (Dark) [Qt], Breeze-Dark [GTK2], Breeze [GTK3]
+//      :osssssss/        osssso+++.        Icons: breeze-dark [Qt], breeze-dark [GTK2/3/4]
+//     /ossssssss/        +ssssooo/-        Font: Noto Sans (10pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
+//   `/ossssso+/:-        -:/+osssso+-      Cursor: volantes (32px)
+//  `+sso+:-`                 `.-/+oso:     Terminal: kitty 0.45.0
+// `++:.                           `-/+/    Terminal Font: NotoSansMono-Regular (11pt)
+// .`                                 `/    CPU: Intel(R) Core(TM) i7-6820HQ (8) @ 3.60 GHz
+//                                          GPU 1: AMD Radeon R7 M370
+//                                          GPU 2: Intel HD Graphics 530 @ 1.05 GHz [Integrated]
+//                                          Memory: 4.38 GiB / 15.51 GiB (28%)
+//                                          Swap: 0 B / 4.00 GiB (0%)
+//                                          Disk (/): 53.64 GiB / 242.18 GiB (22%) - ext4
+//                                          Local IP (wlp2s0): 192.168.0.106/24
+//                                          Battery (DELL 79VRK69): 66% [AC Connected]
+//                                          Locale: en_US.UTF-8
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip",
+    "battery",
+    "poweradapter",
+    "locale",
+    "break",
+    "colors"
+  ]
+}
+*/
+/*
+$ fastfetch
+                                         michal@arch
+                                         -----------
+                  .                      OS: Arch Linux x86_64
+                 / \                     Kernel: Linux 6.18.9-arch1-2
+                /   \                    Host: Latitude E5570
+               /     \                   Disk (/): 53.65 GiB / 242.18 GiB (22%) - ext4
+              /       \
+             />,       \                 Display (LG ULTRAWIDE): 2560x1080 in 29", 60 Hz [External]
+            /  `*.      \                CPU: Intel(R) Core(TM) i7-6820HQ (8) @ 3.60 GHz
+           /      `      \               GPU 1: AMD Radeon R7 M370
+          /               \              GPU 2: Intel HD Graphics 530 @ 1.05 GHz [Integrated]
+         /                 \
+        /      ,.-+-..      \            Packages: 1166 (pacman), 94 (nix-user), 7 (flatpak)
+       /      ,/'   `\.      \           Local IP (wlp2s0): 192.168.0.106/24
+      /      .|'     `|.   _  \          WM: KWin (Wayland)
+     /       :|.     ,|;    `+.\         Terminal: kitty 0.45.0
+    /        .\:     ;/,      "<\        Shell: zsh 5.9
+   /     __,--+"     "+--.__     \
+  /  _,+'"                 "'+._  \      Uptime: 8 hours, 21 mins
+ /,-'                           `-.\     Memory: 4.90 GiB / 15.51 GiB (32%)
+'                                   '    Swap: 0 B / 4.00 GiB (0%)
+                                         Battery (DELL 79VRK69): 66% [AC Connected]
+
+
+*/
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "arch3",
+        "padding": {
+            "top": 2,
+            "left": 1,
+        },
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "{#34}╭──── {user-name-colored}@{host-name-colored} {#34}───────────────────────────────────────",
+        },
+        {
+            "type": "os",
+            "key": "{#34}│ {#36}OS",
+            "format": "{3}",
+        },
+        {
+            "type": "kernel",
+            "key": "{#34}│ {#36}Kernel",
+            "format": "{sysname}",
+        },
+        {
+            "type": "host",
+            "key": "{#34}│ {#36}Host",
+            "format": "{2}",
+        },
+        {
+            "type": "disk",
+            "key": "{#34}│ {#36}Disk (/)",
+            "format": "{1} / {2} ({3})",
+        },
+        {
+            "format": "{#34}├────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "display",
+            "key": "{#34}│ {#36}Display ({name})",
+            "format": "{width}x{height}, {refresh-rate} Hz  [{type}]",
+        },
+        {
+            "type": "cpu",
+            "key": "{#34}│ {#36}CPU",
+            "format": "{name} ({cores-physical}) @ {freq-max}",
+        },
+        {
+            "type": "gpu",
+            "key": "{#34}│ {#36}GPU {index}",
+        },
+        {
+            "format": "{#34}├────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "packages",
+            "key": "{#34}│ {#36}Packages",
+        },
+        {
+            "type": "localip",
+            "key": "{#34}│ {#36}Local IP",
+        },
+        {
+            "type": "wm",
+            "key": "{#34}│ {#36}Window Manager",
+        },
+        {
+            "type": "terminal",
+            "key": "{#34}│ {#36}Terminal",
+        },
+        {
+            "type": "shell",
+            "key": "{#34}│ {#36}Shell",
+        },
+        {
+            "format": "{#34}├────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        {
+            "type": "uptime",
+            "key": "{#34}│ {#36}Uptime",
+        },
+        {
+            "type": "memory",
+            "key": "{#34}│ {#36}Memory",
+        },
+        {
+            "type": "swap",
+            "key": "{#34}│ {#36}Swap",
+        },
+        {
+            "type": "battery",
+            "key": "{#34}│ {#36}Battery ({2})",
+        },
+        {
+            "format": "{#34}╰────────────────────────────────────────────────────────",
+            "type": "custom",
+        },
+        "break",
+        "colors",
+    ],
+}
