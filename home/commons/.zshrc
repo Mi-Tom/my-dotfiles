@@ -42,7 +42,7 @@ PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}%~%f$(parse_git_status
 %F{white}$%f '
 
 
-alias lsa="ls -A"
+alias la="ls -A"
 alias ls="ls --group-directories-first --color=auto"
 alias grep="grep --color=auto"
 alias ..="cd .."
