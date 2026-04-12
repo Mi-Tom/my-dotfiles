@@ -420,8 +420,8 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][277][Applets][278][Configuration]
-popupHeight=752
-popupWidth=1346
+popupHeight=1002
+popupWidth=1225
 
 [Containments][277][Applets][278][Configuration][ConfigDialog]
 DialogHeight=630
