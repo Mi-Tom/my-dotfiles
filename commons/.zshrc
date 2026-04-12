@@ -41,6 +41,7 @@ parse_git_status() {
 PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}%~%f$(parse_git_status)
 %F{white}$%f '
 
+bindkey -s '^Xpm' 'sudo pacman -S'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
 
 alias la="ls -A"
@@ -48,6 +49,7 @@ alias ls="ls --group-directories-first --color=auto"
 alias grep="grep --color=auto"
 alias ..="cd .."
 alias ~="cd ~"
+alias dotfiles="cd ~/.config/my-dotfiles"
 
 alias gti="git"
 
