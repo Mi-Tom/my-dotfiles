@@ -89,6 +89,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][ad30baf3-32ff-4f20-baac-ab686a0c10b6][3c3bb5f7-45f4-4da7-bc7b-f0e97db218b0]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][ad30baf3-32ff-4f20-baac-ab686a0c10b6][3c68ed55-b99e-4181-acc9-47ea581f4d13]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -98,6 +102,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ad30baf3-32ff-4f20-baac-ab686a0c10b6][7e24958a-3b4a-4e03-af7d-341d591bccd7]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][ad30baf3-32ff-4f20-baac-ab686a0c10b6][9146570d-4d55-4ad2-8620-685bf50ab4d9]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -117,6 +125,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d2153a41-bba6-4bf5-aac3-d042a9da96c1][3c3bb5f7-45f4-4da7-bc7b-f0e97db218b0]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][d2153a41-bba6-4bf5-aac3-d042a9da96c1][3c68ed55-b99e-4181-acc9-47ea581f4d13]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -126,6 +138,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d2153a41-bba6-4bf5-aac3-d042a9da96c1][7e24958a-3b4a-4e03-af7d-341d591bccd7]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d2153a41-bba6-4bf5-aac3-d042a9da96c1][9146570d-4d55-4ad2-8620-685bf50ab4d9]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -141,4 +157,4 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 FocusPolicy=FocusFollowsMouse
 
 [Xwayland]
-Scale=1
+Scale=1.15

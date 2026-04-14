@@ -4,6 +4,7 @@ switch-to-activity-9cd20c4d-68c0-4876-ac53-69872c26a6ac=none,none,Switch to acti
 switch-to-activity-a8a22fab-9ece-4564-8a8d-4c96a7b22eae=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to US Layout s českými znaky přes AltGr=none,none,Switch keyboard layout to US Layout s českými znaky přes AltGr
 Switch keyboard layout to US layout with CZ accents via AltGr=none,none,Switch keyboard layout to US layout with CZ accents via AltGr
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
@@ -291,3 +292,7 @@ toggle do not disturb=none,,Toggle do not disturb
 
 [services][org.kde.krunner.desktop]
 _launch=Search\tAlt+Space
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
