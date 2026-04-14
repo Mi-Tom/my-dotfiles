@@ -1,0 +1,6 @@
+[Libinput][2][8][AlpsPS/2 ALPS DualPoint TouchPad]
+ScrollMethod=2
+
+[Mouse]
+cursorSize=32
+cursorTheme=volantes_cursors
