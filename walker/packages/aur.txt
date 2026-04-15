@@ -1,0 +1,4 @@
+betaflight-configurator-bin
+stm32cubemx
+yay
+yay-debug
