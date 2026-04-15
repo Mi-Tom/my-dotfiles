@@ -49,7 +49,7 @@ alias ls="ls --group-directories-first --color=auto"
 alias grep="grep --color=auto"
 alias ..="cd .."
 alias ~="cd ~"
-alias dotfiles="cd ~/.config/my-dotfiles"
+alias dot="cd ~/.config/my-dotfiles"
 
 alias gti="git"
 
