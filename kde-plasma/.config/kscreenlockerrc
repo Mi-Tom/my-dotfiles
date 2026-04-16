@@ -3,4 +3,6 @@ LockGrace=60
 Timeout=10
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///home/michal/Pictures/system/662412-vanilla-arch-wallpaper-linuxart-764830851.png
+Image=file:///home/michal/.config/my-dotfiles/kde-plasma/loginArchWallpaper.png
+PreviewImage=file:///home/michal/.config/my-dotfiles/kde-plasma/loginArchWallpaper.png
+SlidePaths=/usr/share/wallpapers/
