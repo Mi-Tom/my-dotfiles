@@ -1,0 +1,1 @@
+Arduino IDE v2	cc.arduino.IDE2	2.3.8	stable	system

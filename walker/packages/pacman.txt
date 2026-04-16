@@ -17,12 +17,15 @@ dolphin
 efibootmgr
 fastfetch
 firefox
+flatpak
 git
 grub
 hyprland
 intel-ucode
 kitty
 kscreen
+kwallet-pam
+kwalletmanager
 linux
 linux-firmware
 man-db

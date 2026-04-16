@@ -27,7 +27,7 @@ DialogWidth=810
 
 [Containments][163][Applets][164][Configuration][General]
 favoritesPortedToKAstats=true
-icon=/home/michal/.config/my-dotfiles/kde-plasma/Arch-linux-logo-1024x1024-3803209279.png
+icon=/home/michal/.config/my-dotfiles/kde-plasma/arch-linux-logo.png
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][163][Applets][165]
@@ -202,7 +202,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][275][Wallpaper][org.kde.image][General]
-Image=file:///home/michal/.config/my-dotfiles/kde-plasma/wp15331155-2207437231.jpg
+Image=file:///home/michal/.config/my-dotfiles/kde-plasma/mainWallpaper.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][276]
