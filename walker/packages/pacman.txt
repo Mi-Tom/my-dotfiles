@@ -12,14 +12,18 @@ cava
 clang
 cmake
 cmatrix
+cups
+cups-pdf
 dfu-util
 dolphin
 efibootmgr
 fastfetch
 firefox
 flatpak
+ghostscript
 git
 grub
+gsfonts
 hyprland
 intel-ucode
 kitty
@@ -44,6 +48,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 power-profiles-daemon
+print-manager
 python-pipx
 screen
 sddm
@@ -52,6 +57,7 @@ spectacle
 stlink
 stow
 sudo
+system-config-printer
 tree
 waybar
 wofi

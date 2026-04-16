@@ -292,3 +292,7 @@ toggle do not disturb=none,,Toggle do not disturb
 
 [services][org.kde.krunner.desktop]
 _launch=Search\tAlt+Space
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
