@@ -30,6 +30,8 @@ kitty
 kscreen
 kwallet-pam
 kwalletmanager
+libreoffice-fresh
+libreoffice-fresh-cs
 linux
 linux-firmware
 man-db
@@ -37,6 +39,7 @@ ncdu
 neovim
 networkmanager
 ntfs-3g
+okular
 openocd
 openssh
 os-prober
@@ -45,6 +48,7 @@ pipewire-audio
 pipewire-jack
 pipewire-pulse
 plasma-desktop
+plasma-firewall
 plasma-nm
 plasma-pa
 power-profiles-daemon
@@ -59,6 +63,7 @@ stow
 sudo
 system-config-printer
 tree
+ufw
 waybar
 wofi
 yazi
