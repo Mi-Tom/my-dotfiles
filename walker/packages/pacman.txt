@@ -18,6 +18,7 @@ dfu-util
 dolphin
 efibootmgr
 fastfetch
+fd
 firefox
 flatpak
 ghostscript
