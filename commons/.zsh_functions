@@ -1,0 +1,22 @@
+gitinit() {
+    git init
+
+    echo "choose profile"
+    echo "1) global config"
+    echo "2) school"
+
+    printf "[(default)1/2]: "
+    read choice
+    case $choice in
+        2)  
+            git config user.name "$GIT_SCHOOL_NAME"
+            git config user.email "$GIT_SCHOOL_EMAIL"
+            echo "User: $(git config user.name)"
+            echo "Email: $(git config user.email)"
+            ;;
+        *)
+            echo "User: $(git config user.name)"
+            echo "Email: $(git config user.email)"
+            ;;
+    esac
+}

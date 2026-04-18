@@ -3,6 +3,9 @@ local plugins=(
     "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 )
 
+[ -f "$HOME/.zsh_functions" ] && source "$HOME/.zsh_functions"
+[ -f "$HOME/.zsh_local" ] && source "$HOME/.zsh_local"
+
 for plugin in $plugins; do
     [ -f "$plugin" ] && source "$plugin"
 done

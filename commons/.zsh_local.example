@@ -1,0 +1,2 @@
+export GIT_SCHOOL_NAME="Example Name"
+export GIT_SCHOOL_EMAIL="example@gmail.com"
