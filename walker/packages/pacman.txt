@@ -3,6 +3,7 @@ arm-none-eabi-gcc
 arm-none-eabi-newlib
 base
 base-devel
+blender
 bluedevil
 bluez
 bluez-utils
@@ -65,6 +66,7 @@ sudo
 system-config-printer
 tree
 ufw
+usbutils
 waybar
 wofi
 yazi
