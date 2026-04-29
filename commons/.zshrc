@@ -43,6 +43,8 @@ parse_git_status() {
 PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}%~%f$(parse_git_status)
 %F{white}$%f '
 
+export EDITOR=nvim
+
 bindkey -s '^Xpm' 'sudo pacman -S'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
 bindkey -s '^Xcp' 'git commit -m "" && git push\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b'
