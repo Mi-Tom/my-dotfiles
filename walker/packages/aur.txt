@@ -1,5 +1,6 @@
 betaflight-configurator-bin
 brother-hl2240d
 stm32cubemx
+timeshift-autosnap
 yay
 yay-debug
