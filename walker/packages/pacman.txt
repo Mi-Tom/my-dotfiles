@@ -3,6 +3,7 @@ arm-none-eabi-gcc
 arm-none-eabi-newlib
 base
 base-devel
+biber
 blender
 bluedevil
 bluez
@@ -66,10 +67,17 @@ stlink
 stow
 sudo
 system-config-printer
+texlive-bibtexextra
+texlive-bin
+texlive-binextra
+texlive-langczechslovak
+texlive-latexextra
+texlive-latexrecommended
 timeshift
 tree
 ufw
 usbutils
+vlc
 waybar
 wofi
 yazi
