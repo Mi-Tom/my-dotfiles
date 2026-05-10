@@ -52,10 +52,13 @@ bindkey -s '^Xcp' 'git commit -m "" && git push\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\
 alias la="ls -A"
 alias ls="ls --group-directories-first --color=auto"
 alias grep="grep --color=auto"
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ~="cd ~"
 alias dot="cd ~/.config/my-dotfiles"
+
+alias vim="nvim"
 
 alias gti="git"
 

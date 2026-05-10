@@ -4,6 +4,8 @@ local opt = vim.opt
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.g.netrw_keepdir = 0
+
 opt.updatetime = 250
 
 opt.termguicolors = true
@@ -26,5 +28,5 @@ opt.incsearch = true
 opt.swapfile = false
 opt.backup = false
 opt.undofile = true
-opt.undodir = os.getenv("HOME") .. "/vim/undodir"
+opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 
