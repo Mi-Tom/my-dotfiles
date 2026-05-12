@@ -27,8 +27,9 @@ return {
 
             require('mason-lspconfig').setup({
                 ensure_installed = {
-                    'lua_ls',    
-                    'clangd',   
+                    'lua_ls',
+                    'clangd',
+                    'texlab',
                 },
                 handlers = {
                     lsp_zero.default_setup, 
