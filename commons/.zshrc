@@ -41,7 +41,7 @@ parse_git_status() {
 }
 
 PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}%~%f$(parse_git_status)
-%F{white}$%f '
+%F{white}€%f '
 
 export EDITOR=nvim
 

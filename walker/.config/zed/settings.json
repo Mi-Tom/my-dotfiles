@@ -5,7 +5,6 @@
 //
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
     "project_panel": {
         "dock": "left"
@@ -48,16 +47,16 @@
     },
     "languages": {
         "Nix": {
-            "show_edit_predictions": false,
             "language_servers": ["nixd", "!nil"],
         },
         "C": {
-            "show_edit_predictions": false,
             "language_servers": ["clangd"],
         },
         "C++": {
-            "show_edit_predictions": false,
             "language_servers": ["clangd"],
+        },
+        "PHP": {
+            "language_servers": ["intelephense"],
         },
     },
     "soft_wrap": "editor_width",
