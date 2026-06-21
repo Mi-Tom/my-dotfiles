@@ -40,27 +40,59 @@ parse_git_status() {
     echo " %F{yellow}($branch$status_symbol)%f"
 }
 
-PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}%~%f$(parse_git_status)
+# --- Prompt mód: horizontal (poslední 2 adresáře) / vertical (celá cesta) ---
+# Přepínání: pm h / pm v   nebo   prompt-mode horizontal / prompt-mode vertical
+PROMPT_MODE="horizontal"
+
+_prompt_path() {
+    if [[ "$PROMPT_MODE" == "vertical" ]]; then
+        echo "%~"
+    else
+        local full="${PWD/#$HOME/~}"
+        local parts=("${(@s:/:)full}")
+        if (( ${#parts[@]} <= 2 )); then
+            echo "$full"
+        else
+            echo "…/${parts[-2]}/${parts[-1]}"
+        fi
+    fi
+}
+
+prompt-mode() {
+    case "$1" in
+        horizontal|h) PROMPT_MODE="horizontal" ;;
+        vertical|v)   PROMPT_MODE="vertical"   ;;
+        *)
+            echo "Usage: pm [h|v]  or  prompt-mode [horizontal|vertical]"
+            return 1
+            ;;
+    esac
+    echo "Prompt mode: $PROMPT_MODE"
+}
+
+
+PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}$(_prompt_path)%f$(parse_git_status)
 %F{white}€%f '
 
 export EDITOR=nvim
 
 bindkey -s '^Xpm' 'sudo pacman -S'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
-bindkey -s '^Xcp' 'git commit -m "" && git push\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b\C-b'
 
 alias la="ls -A"
 alias ls="ls --group-directories-first --color=auto"
 alias grep="grep --color=auto"
 
 alias ..="cd .."
-alias ...="cd ../.."
+alias ...="cd ../.. && ls -d */ && echo "" && ls -d .*/"
 alias ~="cd ~"
 alias dot="cd ~/.config/my-dotfiles"
 
 alias vim="nvim"
 
 alias gti="git"
+
+alias pm="prompt-mode"
 
 # --- Histori settings ---
 HISTSIZE=10000
