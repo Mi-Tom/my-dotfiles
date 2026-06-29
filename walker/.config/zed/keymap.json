@@ -42,6 +42,8 @@
             "space h": "pane::ActivatePreviousItem",
             "space l": "pane::ActivateNextItem",
             "space q": "pane::CloseActiveItem",
+            "ctrl-alt-down": "editor::AddSelectionBelow",
+            "ctrl-alt-up": "editor::AddSelectionAbove",
             "x": ["workspace::SendKeystrokes", "\" _ x"],
             "d": ["workspace::SendKeystrokes", "\" _ d"],
         }
