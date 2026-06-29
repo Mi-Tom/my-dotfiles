@@ -22,7 +22,7 @@ parse_git_status() {
     command git rev-parse --is-inside-work-tree &>/dev/null || return
 
     local branch status_symbol=""
-  
+
     branch=$(command git symbolic-ref --short HEAD 2>/dev/null || command git rev-parse --short HEAD 2>/dev/null)
 
     if ! command git rev-parse HEAD &>/dev/null; then
@@ -77,7 +77,7 @@ PROMPT='%F{white}%D{%H:%M}%f %B%F{green}%n@%m%f%b %F{cyan}$(_prompt_path)%f$(par
 export EDITOR=nvim
 
 bindkey -s '^Xpm' 'sudo pacman -S'
-bindkey -s '^Xgc' 'git commit -m ""\C-b'
+bindkey -s '^Xgc' 'git commit -m ""\e[D'
 
 alias la="ls -A"
 alias ls="ls --group-directories-first --color=auto"
@@ -101,8 +101,6 @@ HISTFILE=~/.zsh_history
 setopt SHARE_HISTORY
 setopt APPEND_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
-
-fastfetch
 
 # Created by `pipx` on 2026-04-14 09:07:09
 export PATH="$PATH:/home/michal/.local/bin"

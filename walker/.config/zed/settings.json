@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 {
   "terminal": {
+    "minimum_contrast": 40.0,
+    "cursor_shape": "bar",
+    "show_count_badge": false,
     "dock": "right"
   },
   "project_panel": {
