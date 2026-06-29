@@ -9,7 +9,14 @@
     {
       "context": "Workspace",
       "bindings": {
-        "ctrl-alt-v": "workspace::ToggleVimMode"
+        "ctrl-alt-v": "workspace::ToggleVimMode",
+        "ctrl-w": null,
+      }
+    },
+    {
+      "context": "Terminal",
+      "bindings": {
+        "ctrl-h": "workspace::ActivatePaneLeft"
       }
     },
     {
@@ -34,7 +41,7 @@
             "space l": "pane::ActivateNextItem",
             "space q": "pane::CloseActiveItem"
         }
-        }, 
+    },
     {
       "context": "VimControl && vim_mode == normal && !menu",
       "bindings": {
