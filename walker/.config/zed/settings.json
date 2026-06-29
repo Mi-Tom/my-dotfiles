@@ -67,7 +67,9 @@
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha",
   },
-  "vim_mode": false,
+  "vim_mode": true,
+  "scroll_beyond_last_line": "off",
+  "vertical_scroll_margin": 10,
   "ui_font_size": 19, //16
   "buffer_font_size": 15,
   "theme": {
