@@ -106,3 +106,4 @@ fastfetch
 
 # Created by `pipx` on 2026-04-14 09:07:09
 export PATH="$PATH:/home/michal/.local/bin"
+export PATH="$HOME/.cargo/bin:$PATH"
