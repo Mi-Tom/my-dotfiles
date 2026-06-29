@@ -11,7 +11,7 @@ opt.updatetime = 250
 opt.termguicolors = true
 opt.signcolumn = "yes"
 
-opt.number = true      
+opt.number = true
 
 opt.cursorline = true
 opt.colorcolumn = "100"
@@ -29,4 +29,3 @@ opt.swapfile = false
 opt.backup = false
 opt.undofile = true
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-

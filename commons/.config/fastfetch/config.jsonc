@@ -91,12 +91,13 @@ $ fastfetch
         "padding": {
             "top": 2,
             "left": 1,
+            "right": 1,
         },
     },
     "modules": [
         {
             "type": "title",
-            "format": "{#34}╭──── {user-name-colored}@{host-name-colored} {#34}───────────────────────────────────────",
+            "format": "{#34}╭──── {user-name-colored}@{host-name-colored} {#34}─────────────────────────────────────",
         },
         {
             "type": "os",
