@@ -7,17 +7,19 @@
 // from the command palette.
 [
     {
-      "context": "Workspace",
-      "bindings": {
-        "ctrl-alt-v": "workspace::ToggleVimMode",
-        "ctrl-w": null,
-      }
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-w": null,
+            "ctrl-alt-v": "workspace::ToggleVimMode",
+            "ctrl-w <": "workspace::IncreaseActiveDockSize",
+            "ctrl-w >": "workspace::DecreaseActiveDockSize"
+        }
     },
     {
-      "context": "Terminal",
-      "bindings": {
-        "ctrl-h": "workspace::ActivatePaneLeft"
-      }
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-w h": "workspace::ActivatePaneLeft",
+        }
     },
     {
         "context": "Editor && vim_mode == insert && !menu",
@@ -39,14 +41,9 @@
             "f g":     "pane::DeploySearch",
             "space h": "pane::ActivatePreviousItem",
             "space l": "pane::ActivateNextItem",
-            "space q": "pane::CloseActiveItem"
+            "space q": "pane::CloseActiveItem",
+            "x": ["workspace::SendKeystrokes", "\" _ x"],
+            "d": ["workspace::SendKeystrokes", "\" _ d"],
         }
     },
-    {
-      "context": "VimControl && vim_mode == normal && !menu",
-      "bindings": {
-        "x": ["workspace::SendKeystrokes", "\" _ x"],
-        "d": ["workspace::SendKeystrokes", "\" _ d"]
-      }
-    }
 ]
