@@ -25,16 +25,16 @@
         }
     },
     {
-      "context": "VimControl && vim_mode == normal && !menu",
-      "bindings": {
-        "space w":     "workspace::Save",
-        "f f":   "file_finder::Toggle",
-        "f g":   "pane::DeploySearch",
-        "space h":     "pane::ActivatePreviousItem",
-        "space l":     "pane::ActivateNextItem",
-        "space q":     "pane::CloseActiveItem"
-      }
-    }, 
+        "context": "VimControl && vim_mode == normal && !menu",
+        "bindings": {
+            "space w": "workspace::Save",
+            "f f":     "file_finder::Toggle",
+            "f g":     "pane::DeploySearch",
+            "space h": "pane::ActivatePreviousItem",
+            "space l": "pane::ActivateNextItem",
+            "space q": "pane::CloseActiveItem"
+        }
+        }, 
     {
       "context": "VimControl && vim_mode == normal && !menu",
       "bindings": {
