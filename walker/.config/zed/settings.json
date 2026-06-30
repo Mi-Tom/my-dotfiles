@@ -6,6 +6,9 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 {
+  "debugger": {
+    "dock": "right"
+  },
   "terminal": {
     "minimum_contrast": 40.0,
     "cursor_shape": "bar",
@@ -24,15 +27,16 @@
   "git_panel": {
     "dock": "left",
   },
-  "minimap": {
-    "display_in": "all_editors",
-    "show": "always",
-  },
+//  "minimap": {
+//    "display_in": "all_editors",
+//    "show": "always",
+//  },
   "edit_predictions": {
     "provider": "zed",
   },
   "show_edit_predictions": false,
   "agent": {
+    "button": false,
     "dock": "right",
     "enable_feedback": false,
     "single_file_review": false,
