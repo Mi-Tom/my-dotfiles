@@ -24,7 +24,8 @@
     {
         "context": "Editor && vim_mode == insert && !menu",
         "bindings": {
-            "j k": "vim::NormalBefore"
+            "j k": "vim::NormalBefore",
+            "ctrl-q": "zed::Quit",
         }
     },
     {
@@ -44,6 +45,7 @@
             "space q": "pane::CloseActiveItem",
             "ctrl-alt-down": "editor::AddSelectionBelow",
             "ctrl-alt-up": "editor::AddSelectionAbove",
+            "ctrl-q": "zed::Quit",
             "x": ["workspace::SendKeystrokes", "\" _ x"],
             "d": ["workspace::SendKeystrokes", "\" _ d"],
         }
