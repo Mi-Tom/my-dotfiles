@@ -46,6 +46,7 @@
             "ctrl-alt-down": "editor::AddSelectionBelow",
             "ctrl-alt-up": "editor::AddSelectionAbove",
             "ctrl-q": "zed::Quit",
+            "space x x": "diagnostics::Deploy",
             "x": ["workspace::SendKeystrokes", "\" _ x"],
             "d": ["workspace::SendKeystrokes", "\" _ d"],
         }
