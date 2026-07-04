@@ -8,5 +8,5 @@ nixOS-logo.png
 packages
 README.md
 LICENSE
-.git/
+.git
 .gitignore
