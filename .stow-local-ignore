@@ -1,6 +1,12 @@
+.*\.example$
 arch-linux-logo.png
 archKaliWallpaper.jpg
 ifItAintBroke.jpg
 loginArchWallpaper.png
 mainWallpaper.jpg
 nixOS-logo.png
+packages
+README.md
+LICENSE
+.git/
+.gitignore

@@ -29,6 +29,13 @@
         }
     },
     {
+        "context": "Editor && vim_mode == replace && !menu",
+        "bindings": {
+            "j k": "vim::NormalBefore",
+            "ctrl-q": "zed::Quit",
+        }
+    },
+    {
         "context": "BufferSearchBar && ProjectSearchBar",
         "bindings": {
             "j k": "buffer_search::Dismiss"

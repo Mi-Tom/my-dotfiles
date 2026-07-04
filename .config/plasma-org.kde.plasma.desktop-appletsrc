@@ -27,7 +27,7 @@ DialogWidth=810
 
 [Containments][163][Applets][164][Configuration][General]
 favoritesPortedToKAstats=true
-icon=/home/michal/.config/my-dotfiles/kde-plasma/arch-linux-logo.png
+icon=/home/michal/.config/my-dotfiles/arch-linux-logo.png
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][163][Applets][165]
@@ -189,6 +189,8 @@ plugin=org.kde.plasma.panelspacer
 AppletOrder=164;166;184;165;168;167;182;183
 
 [Containments][275]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=a8a22fab-9ece-4564-8a8d-4c96a7b22eae
 formfactor=0
 immutability=1
@@ -202,7 +204,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][275][Wallpaper][org.kde.image][General]
-Image=file:///home/michal/.config/my-dotfiles/kde-plasma/mainWallpaper.jpg
+Image=file:///home/michal/.config/my-dotfiles/mainWallpaper.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][276]

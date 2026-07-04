@@ -102,6 +102,7 @@ setopt SHARE_HISTORY
 setopt APPEND_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 
+eval "$(zoxide init --cmd cd zsh)"
 # Created by `pipx` on 2026-04-14 09:07:09
 export PATH="$PATH:/home/michal/.local/bin"
 export PATH="$HOME/.cargo/bin:$PATH"

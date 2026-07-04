@@ -1,0 +1,12 @@
+[AC][Display]
+DimDisplayIdleTimeoutSec=600
+TurnOffDisplayIdleTimeoutSec=900
+
+[Battery][Display]
+DimDisplayIdleTimeoutSec=300
+TurnOffDisplayIdleTimeoutSec=600
+
+[BatteryManagement]
+BatteryCriticalAction=1
+BatteryCriticalLevel=10
+BatteryLowLevel=20
